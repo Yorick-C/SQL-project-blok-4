@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Web applicatie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body, h1, h2, h3, h4, h5 {
+        font-family: "Raleway", sans-serif
+    }
+
+    .w3-third img {
+        margin-bottom: -6px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-third img:hover {
+        opacity: 1
+    }
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+     style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+    <h3 class="w3-padding-64 w3-center"><b>Bio-Informatics<br>Database</b></h3>
+    <a href="javascript:void(0)" onclick="w3_close()"
+       class="w3-bar-item w3-button w3-padding w3-hide-large">Close</a>
+    <a href="#about" onclick="w3_close()"
+       class="w3-bar-item w3-button">About</a>
+
+    <a href="page_1.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding">Bio-Informatics database</span>
+    <a href="javascript:void(0)" class="w3-right w3-button w3-white"
+       onclick="w3_open()">☰</a>
+</header>
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()"
+     style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+
+    <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32"
+         id="about">
+        <h4><b>About</b></h4>
+
+        <div class="w3-content w3-justify" style="max-width:600px">
+            <hr class="w3-opacity">
+            <h4>Bio-Informatics database</h4>
+            <p>
+                Een database dat alle micro-organismen bevat die gevonden waren
+                in compost.
+            </p>
+            <hr class="w3-opacity">
+            <div class="w3-row-padding" style="margin:0 -16px">
+                <div class="w3-half w3-margin-bottom">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    </ul>
+                </div>
+                <div class="w3-half">
+                    <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <hr class="w3-opacity">
+
+    <title>Homepage</title>
+    <link rel="stylesheet" type="text/css" href="style/main.css">
+    <h1>Filters</h1>
+
+
+<!--    <label for="input">input:</label>-->
+<!--    <input type="text" id="input" name="input">-->
+<!--    <input type="checkbox" id="Description" name="Description" value="True">-->
+<!--    <label for="description"> Description</label>-->
+<!--    <input type="checkbox" id="Score" name="Score" value="True">-->
+<!--    <label for="Score"> Score</label>-->
+<!--    <input type="checkbox" id="Taxonomy" name="Taxonomy" value="True">-->
+<!--    <label for="Taxonomy"> Taxonomy</label>-->
+
+    <form method="get">
+        <label for="input">input:</label>
+        <input type="text" id="input" name="input">
+        <input type="checkbox" id="Blast ID" name="ID" value="True">
+        <label for="Blast ID"> Blast ID</label>
+        <input type="checkbox" id="Description" name="Description" value="True">
+        <label for="Description"> Description</label>
+        <input type="checkbox" id="Score" name="Score" value="True">
+        <label for="Score"> Score</label>
+        <input type="checkbox" id="Taxonomy" name="Taxonomy" value="True">
+        <label for="Taxonomy"> Taxonomy</label>
+
+        <input type="submit" value="Refresh" />
+    </form>
+
+    <p>Resultaten van de database:</p>
+    <table>
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Description</th>
+            <th scope="col">E-value</th>
+            <th scope="col">Accession_code</th>
+            <th scope="col">Score</th>
+            <th scope="col">taxonomy naam</th>
+        </tr>
+
+        <div class="w3-container">
+
+                {% for x in data %}
+                    <tr>
+                        <td> {{ x[0] }}</td>
+                        <td> {{ x[1] }}</td>
+                        <td> {{ x[2] }}</td>
+                        <td> {{ x[3] }}</td>
+                        <td> {{ x[4] }}</td>
+                        <td> {{ x[6] }}</td>
+                    </tr>
+                {% endfor %}
+            </div>
+        </div>
+    </table>
+<script>
+    function myFunction() {
+        var x = document.getElementById("Demo");
+        if (x.className.indexOf("w3-show") == -1) {
+            x.className += " w3-show";
+        } else {
+            x.className = x.className.replace(" w3-show", "");
+        }
+    }
+</script>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+</script>
+</div>
+</body>
+</html>
+

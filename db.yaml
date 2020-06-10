@@ -1,0 +1,5 @@
+# mysql_host: "hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com"
+mysql_host: "localhost"
+mysql_user: "flezi@hannl-hlo-bioinformatica-mysqlsrv"
+mysql_db: "flezi"
+mysql_password: "Tutorgroep4HYL"

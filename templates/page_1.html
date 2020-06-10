@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Web applicatie</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+    body, h1, h2, h3, h4, h5 {
+        font-family: "Raleway", sans-serif
+    }
+
+    .w3-third img {
+        margin-bottom: -6px;
+        opacity: 0.8;
+        cursor: pointer
+    }
+
+    .w3-third img:hover {
+        opacity: 1
+    }
+</style>
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-white w3-animate-left w3-text-grey w3-collapse w3-top w3-center"
+     style="z-index:3;width:300px;font-weight:bold" id="mySidebar"><br>
+    <h3 class="w3-padding-64 w3-center"><b>Bio-Informatics<br>Database</b></h3>
+    <a href="javascript:void(0)" onclick="w3_close()"
+       class="w3-bar-item w3-button w3-padding w3-hide-large">Close</a>
+    <a href="#" onclick="w3_close()" class="w3-bar-item w3-button">Database</a>
+    <a href="#about" onclick="w3_close()"
+       class="w3-bar-item w3-button">About</a>
+    <a href="#credits" onclick="w3_close()" class="w3-bar-item w3-button">Credits</a>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-white w3-xlarge w3-padding-16">
+    <span class="w3-left w3-padding">Bio-Informatics database</span>
+    <a href="javascript:void(0)" class="w3-right w3-button w3-white"
+       onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()"
+     style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+    <!-- Push down content on small screens -->
+    <div class="w3-hide-large" style="margin-top:83px"></div>
+
+    <!-- Image Header -->
+    <div class="w3-display-container w3-animate-opacity">
+        <img src="https://images.unsplash.com/photo-1493810353548-4cdea49dea74?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+             alt="Header photo"
+             style="width:100%;min-height:150px;max-height:600px;">
+        <form method='get' action='HTML.html'>
+            <div class="w3-container w3-border w3-margin-bottom w3-wide w3-display-middle w3-padding-large w3-wide w3-text-light-grey w3-center">
+                <button type="submit"
+                        onclick="document.getElementById('id01').style.display='block'"
+                        class="w3-button w3-xlarge w3-theme w3-hover-grey"
+                        title="Go To Database"> Go to database
+                </button>
+        </form>
+    </div>
+</div>
+
+<!-- Modal for full size images on click -->
+<div id="modal01" class="w3-modal w3-white" style="padding-top:0"
+     onclick="this.style.display='none'">
+    <span class="w3-button w3-white w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption"></p>
+    </div>
+</div>
+
+<!-- About section -->
+<div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32"
+     id="about">
+    <h4><b>About</b></h4>
+
+    <div class="w3-content w3-justify" style="max-width:600px">
+        <!--
+          <h4>Over ons</h4>
+
+          <p>Wij zijn Lars Hommersom, Herke Schuffel en Yorick Cleijsen. Wij zijn eerstejaars studenten aan de Hogeschool Van Arnhem en Nijmegen. Wij studeren Bio-informatica op locatie Nijmegen.
+          </p>
+          <style>
+            img {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+            }
+          </style>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/HAN-merkteken-descriptor.png" onclick="onClick(this)" alt="HAN logo" style="width:50%;">
+          -->
+        <hr class="w3-opacity">
+        <h4>Over het project</h4>
+        <p>
+
+            <img src="https://cdn.discordapp.com/attachments/495310016270565398/713055064482119720/9k.png"
+                 , alt="champignons" style="padding: 10px"
+                 onclick="onClick(this)" align="right">
+            De champignon <i>Agaricus bisporus</i> is een schimmel uit de
+            familie <i>Agaricaceae</i>.
+
+            Voor de productie van de champignons wordt er gebruik gemaakt van
+            compost. Deze compost bestaat uit een mengsel van onder andere
+            kippenmest, paardenmest stro en gips. Voordat het compost wordt
+            gebruikt gaat het eerst door een bereidingsproces. Het
+            bereidingsproces is er op gericht om een optimale voedingsbodem te
+            verkrijgen en om groei van ongewenste micro-organismen te
+            voorkomen.
+        </p>
+        <p>
+            Een groot probleem binnen de champignonteelt is echter dat de oogst
+            van champignons sterk kan variëren. Deels kan dit afhankelijk van
+            de kwaliteit van de compost zijn. Daarnaast komt, ondanks vele
+            voorzorgsmaatregelen, schimmels regelmatig in de compost voor. Deze
+            schimmels kunnen in korte tijd het bed waarin de champignons
+            geteeld worden overgroeien waardoor de oogst mislukt. Ook
+            micro-organismen die het pasteurisatie proces in de compost
+            overleefd hebben kunnen een negatieve of juist een positieve
+            invloed hebben op de teelt. Deze micro-organismen vormen in de
+            compost een microflora. De microflora in de compost zal gedurende
+            het proces voortdurend wisselen van samenstelling en een grote rol
+            spelen bij de afbraak van de compost (fermentatie) en de opbouw van
+            voor de champignon geschikte structuur en voedingstoffen. Bovendien
+            speelt de microflora een positieve of negatieve rol richting
+            pathogene micro-organismen. Door het ontbreken van methoden om
+            aanwezige micro-organismen in de compost te detecteren,
+            karakteriseren en te kwantificeren bestaat er momenteel weinig
+            inzicht in de aanwezigheid en samenstelling van microflora in de
+            verschillende fases van het proces en de daarbij behorende invloed
+            die de microflora heeft op teeltresultaten.
+        </p>
+        <p>
+            Om meer inzicht te krijgen in de samenstelling van de microflora
+            tijdens het composteringsproces heeft het HAN biocentre de
+            micro-organismen die voorkomen in het compost geïnventariseerd en
+            gekarakteriseerd. Hieruit is data gekomen, een deel van die data is
+            gebruikt voor dit project.
+        </p>
+        <p>
+            Met deze data van de micro-organismen die in het compost te
+            bevinden waren is een blast uitgevoerd waarvan de resultaten
+            gefilterd en geordend waren. De resultaten van deze data is te
+            bevinden op deze website.
+        </p>
+        <hr class="w3-opacity">
+        <div class="w3-row-padding" style="margin:0 -16px">
+            <div class="w3-half w3-margin-bottom">
+                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                </ul>
+            </div>
+            <div class="w3-half">
+                <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact section -->
+<div class="w3-container w3-light-grey w3-padding-32 w3-padding-large"
+     id="credits">
+    <div class="w3-content" style="max-width:600px">
+        <h4 class="w3-center"><b>Credits</b></h4>
+        <p>De tools die gebruikt zijn voor dit project zijn: BlastX, BioPython,
+            SQL en Flask.
+        </p>
+        <p>
+            De data die gebruikt is voor dit project is geleverd door het HAN
+            biocentre.
+        </p>
+        <style>
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <img src="https://cdn.discordapp.com/attachments/495310016270565398/720233373473177620/unknown.png"
+             onclick="onClick(this)" alt="HAN biocentre logo"
+             style="width:50%;">
+    </div>
+</div>
+
+<!-- Footer
+<footer class="w3-container w3-padding-32 w3-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3>INFO</h3>
+      <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul">
+        <li class="w3-padding-16 w3-hover-black">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Lorem</span><br>
+          <span>Sed mattis nunc</span>
+        </li>
+        <li class="w3-padding-16 w3-hover-black">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Ipsum</span><br>
+          <span>Praes tinci sed</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Travel</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">New York</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">London</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">IKEA</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">NORWAY</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">DIY</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Baby</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Family</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">News</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Clothing</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Shopping</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sports</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Games</span>
+      </p>
+    </div>
+  </div>
+</footer>
+-->
+<div class="w3-black w3-center w3-padding-24">Door tutor groep 4 van BI1A</div>
+
+<!-- End page content -->
+</div>
+
+<script>
+    // Script to open and close sidebar
+    function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("myOverlay").style.display = "block";
+    }
+
+    function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";
+        document.getElementById("myOverlay").style.display = "none";
+    }
+
+    // Modal Image Gallery
+    function onClick(element) {
+        document.getElementById("img01").src = element.src;
+        document.getElementById("modal01").style.display = "block";
+        var captionText = document.getElementById("caption");
+        captionText.innerHTML = element.alt;
+    }
+
+</script>
+
+
+</body>
+</html>
