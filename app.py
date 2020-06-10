@@ -1,3 +1,4 @@
+# Door tutor groep 4 blok 4 bi1a. Van Lars Hommersom, Herke Schuffel en Yorick Cleijsen
 from flask import Flask, render_template, request
 from flask_mysqldb import MySQL
 import mysql.connector
