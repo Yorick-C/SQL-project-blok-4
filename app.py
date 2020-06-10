@@ -8,11 +8,19 @@ app = Flask(__name__)
 @app.route('/')
 @app.route('/page_1.html')
 def home_page():
+    """
+    De home pagina van de website
+    :return: een render template van het HTML bestand wat de home page bevat
+    """
     return render_template("page_1.html")
 
 
 @app.route('/HTML.html', methods=['POST', 'GET'])
 def database():
+    """
+    De database pagina van de website, gebruikt data van de SQL databse
+    :return: en render template van het HTML bestand wat de database page bevat
+    """
     # de knoppen op de website geven een "True" mee aan het python script
     # zodat deze weet welke queries gemaakt moeten worden.
     # ook krijgt het script een string binnen waarop gezocht moet worden
@@ -29,6 +37,10 @@ def database():
 
 
 def connector(filter_text, ID, description, score, taxonomy):
+    """
+    Maakt een connectie naar de SQL database en filterd door de data
+    :return: de gefilterde data en geeft het door aan de website
+    """
     conn = mysql.connector.connect(
         host="hannl-hlo-bioinformatica-mysqlsrv.mysql.database.azure.com",
         user="flezi@hannl-hlo-bioinformatica-mysqlsrv",
