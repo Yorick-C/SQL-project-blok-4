@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a679298-3059-46af-9ea4-0a00c13c5b9a" name="Default Changelist" comment="" />
+    <list default="true" id="0a679298-3059-46af-9ea4-0a00c13c5b9a" name="Default Changelist" comment="test commit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/HTML.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -26,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -91,40 +111,75 @@
       <updated>1590931851761</updated>
       <workItem from="1590931888034" duration="20934000" />
       <workItem from="1591725865481" duration="2854000" />
+      <workItem from="1591790556829" duration="10289000" />
+      <workItem from="1591959013885" duration="69000" />
+      <workItem from="1591959511614" duration="4179000" />
+      <workItem from="1593425403723" duration="303000" />
+      <workItem from="1593513086843" duration="1416000" />
+      <workItem from="1593542224092" duration="921000" />
     </task>
+    <task id="LOCAL-00001" summary="test commit">
+      <created>1591791058709</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1591791058709</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="test commit" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1591791130069">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1591791130069" />
     <state x="740" y="96" key="FileChooserDialogImpl" timestamp="1590935812633">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="740" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1590935812633" />
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1591787732558">
+    <state x="495" y="235" key="Github.ShareDialog" timestamp="1591794830645">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591787732558" />
-    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1591787732558">
+    <state x="495" y="235" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1591794830645" />
+    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1591819936166">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591787732558" />
-    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1591787732558">
+    <state width="1237" height="109" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591819936166" />
+    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1591819936158">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591787732558" />
-    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1591787732558">
+    <state width="1237" height="109" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591819936158" />
+    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1591819936158">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591787732558" />
+    <state width="1237" height="109" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591819936158" />
+    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1591819936158">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="109" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591819936158" />
     <state x="284" y="0" key="SettingsEditor" timestamp="1590940331532">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1590940331532" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1594144692137">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1594144692137" />
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591791116153">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1591791116153" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/SQL_project$SQL_project.coverage" NAME="SQL-project Coverage Results" MODIFIED="1591027042513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQL_project_9_6$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1591787732542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SQL_project_blok_4$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1591819242682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
