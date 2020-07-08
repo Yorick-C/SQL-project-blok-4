@@ -96,17 +96,18 @@
     <form method="get">
         <label for="input">input:</label>
         <input type="text" id="input" name="input">
-        <input type="checkbox" id="Blast ID" name="ID" value="True">
-        <label for="Blast ID"> Blast ID</label>
-        <input type="checkbox" id="Description" name="Description" value="True">
+        <input type="radio" id="Blast" name="filter" value="Blast">
+        <label for="Blast"> Blast ID</label>
+        <input type="radio" id="Description" name="filter" value="Description">
         <label for="Description"> Description</label>
-        <input type="checkbox" id="Score" name="Score" value="True">
+        <input type="radio" id="Score" name="filter" value="Score">
         <label for="Score"> Score</label>
-        <input type="checkbox" id="Taxonomy" name="Taxonomy" value="True">
+        <input type="radio" id="Taxonomy" name="filter" value="Taxonomy">
         <label for="Taxonomy"> Taxonomy</label>
 
         <input type="submit" value="Refresh" />
     </form>
+
 
     <p>Resultaten van de database:</p>
     <table>

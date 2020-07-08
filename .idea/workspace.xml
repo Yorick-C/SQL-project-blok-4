@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0a679298-3059-46af-9ea4-0a00c13c5b9a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/HTML.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/HTML.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +36,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1cfuDniiNLUuhXjBtcO6vKqbmFM" />
   <component name="ProjectViewState">
@@ -48,6 +52,21 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Flask server.Flask (app.py)">
+    <configuration name="Flask (ApplicatieGroep4.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="SQL-project" />
+      <option name="target" value="$PROJECT_DIR$/ApplicatieGroep4.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="SQL-project" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -81,6 +100,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (app.py)" />
+        <item itemvalue="Flask server.Flask (ApplicatieGroep4.py)" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +134,7 @@
       <workItem from="1593425403723" duration="303000" />
       <workItem from="1593513086843" duration="1416000" />
       <workItem from="1593542224092" duration="921000" />
-      <workItem from="1594144687111" duration="278000" />
+      <workItem from="1594144687111" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1591791058709</created>
@@ -130,21 +150,46 @@
       <option name="project" value="LOCAL" />
       <updated>1594144858274</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="test commit">
+      <created>1594144971453</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594144971453</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test commit">
+      <created>1594144985235</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594144985235</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test commit" />
     <option name="LAST_COMMIT_MESSAGE" value="test commit" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1594144970431">
+    <state x="265" y="0" key="CommitChangelistDialog2" timestamp="1594144984459">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1594144970431" />
+    <state x="265" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1594144984459" />
     <state x="740" y="96" key="FileChooserDialogImpl" timestamp="1590935812633">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -153,38 +198,43 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="495" y="235" key="Github.ShareDialog/0.0.1280.680@0.0.1280.680" timestamp="1591794830645" />
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1591819936166">
+    <state width="1237" height="109" key="GridCell.Tab.0.bottom" timestamp="1594214256068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1591819936166" />
-    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1591819936158">
+    <state width="1237" height="109" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1594214256068" />
+    <state width="1237" height="109" key="GridCell.Tab.0.center" timestamp="1594214256068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1591819936158" />
-    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1591819936158">
+    <state width="1237" height="109" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1594214256068" />
+    <state width="1237" height="109" key="GridCell.Tab.0.left" timestamp="1594214256068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1591819936158" />
-    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1591819936158">
+    <state width="1237" height="109" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1594214256068" />
+    <state width="1237" height="109" key="GridCell.Tab.0.right" timestamp="1594214256068">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="109" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1591819936158" />
+    <state width="1237" height="109" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1594214256068" />
     <state x="284" y="0" key="SettingsEditor" timestamp="1590940331532">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="284" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1590940331532" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1594214299440">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1594214299440" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1594144692137">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1594144692137" />
-    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591791116153">
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1594145153408">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1591791116153" />
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1594145153408" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SQL_project_blok_4$Flask__ApplicatieGroep4_py_.coverage" NAME="Flask (ApplicatieGroep4.py) Coverage Results" MODIFIED="1594214155527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/SQL_project$SQL_project.coverage" NAME="SQL-project Coverage Results" MODIFIED="1591027042513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/SQL_project_9_6$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1591787732542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/SQL_project_blok_4$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1591819242682" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/SQL_project_blok_4$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1594214256052" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
